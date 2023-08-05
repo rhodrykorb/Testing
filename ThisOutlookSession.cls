@@ -101,7 +101,7 @@ If Item.Class = 26 Then
                     Exit Sub
                 End If
                 If myappt.ResponseStatus = olResponseAccepted Then
-                    .Subject = "WorkMeeting - Accepted"
+                    .Subject = "Work Meeting - Accepted"
                 End If
                .Start = myappt.Start
                 If myappt.ResponseStatus <> olResponseDeclined Then
@@ -129,7 +129,7 @@ If Item.Class = 26 Then
                     .Subject = "Work Meeting - My Meeting"
                 End If
                 If myappt.ResponseStatus = olResponseAccepted Then
-                    .Subject = "WorkMeeting - Accepted"
+                    .Subject = "Work Meeting - Accepted"
                 End If
                 Dim myrec As Outlook.Recipient
                 Set myrec = .Recipients.Add("rhodry.korb@adanac.tech")
