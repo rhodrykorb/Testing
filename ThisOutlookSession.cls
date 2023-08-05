@@ -54,7 +54,7 @@ If Item.Class = 26 Then
         If found = True Then
             If myappt.Mileage <> "" Then Exit Sub
             For Each myrcp In myappt.Recipients
-                    If myrcp.Address = "rodk3150@gmail.com" Then
+                    If myrcp.Address = "rhodry.korb@adanac.tech" Then
                         Set myappt = Nothing
                         Set myrcp = Nothing
                         Set thisappt = Nothing
@@ -132,7 +132,7 @@ If Item.Class = 26 Then
                     .Subject = "WorkMeeting - Accepted"
                 End If
                 Dim myrec As Outlook.Recipient
-                Set myrec = .Recipients.Add("rodk3150@gmail.com")
+                Set myrec = .Recipients.Add("rhodry.korb@adanac.tech")
                 myrec.Type = olOptional
                 .Start = myappt.Start
                 If myappt.ResponseStatus <> olResponseDeclined Then
@@ -166,7 +166,7 @@ If Item.Class = 26 Then
     If myappt.Mileage <> "" Then Exit Sub
     Dim myrcp As Recipient
     For Each myrcp In myappt.Recipients
-                    If myrcp.Address = "rodk3150@gmail.com" Then
+                    If myrcp.Address = "rhodry.korb@adanac.tech" Then
                         Set myappt = Nothing
                         Set myrcp = Nothing
                         Set thisappt = Nothing
@@ -252,7 +252,7 @@ If Item.Class = 26 Then
     If myappt.Mileage <> "" Then Exit Sub
     Dim myrcp As Recipient
     For Each myrcp In myappt.Recipients
-                    If myrcp.Address = "rodk3150@gmail.com" Then
+                    If myrcp.Address = "rhodry.korb@adanac.tech" Then
                         Set myappt = Nothing
                         Set myrcp = Nothing
                         Set thisappt = Nothing
